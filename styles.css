@@ -1,0 +1,141 @@
+/*reset
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* General*/
+body {
+	background-color: #fbd2b8;
+}
+
+
+
+
+.header {
+	background-color: #fcce5e;
+	text-align: center;
+}
+
+
+.nav ul {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  padding: 0;
+  margin-left: 0;
+  vertical-align: top;
+}
+.nav li {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #7a3900;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  color: #b85600;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+
+.footer {
+	position: fixed;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+.map {
+	clear: all;
+}
+
+.contact-form {
+	padding: 20px;
+	text-align: center;
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-container-image{
+	width: 100px;
+	text-align: center;
+}
+.flex-item {
+    width: 25%;
+    height: 300px;
+ }
